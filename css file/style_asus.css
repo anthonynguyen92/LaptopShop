@@ -1,0 +1,772 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	padding: 0;
+	background-color: whitesmoke;
+	margin-left: 169.200px;
+	margin-right: 169.200px;
+}
+/* phần tổng */
+div.vithantoicao
+{
+	margin-left: 169.200px;
+	margin-right: 169.200px;
+	height: auto;
+}
+/* liên hệ */
+div.contactmail{
+	display: block;
+	position: fixed;
+	z-index: 1600008;
+	right: 10px;
+	bottom: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 396;
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 3px 2px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+	width: 290;
+	
+	
+}
+div.contact1{
+	text-align:center;
+	background:#00D8DA;
+	margin: 0;
+	width: 290px;
+	height: 24px;
+	color: white;
+}
+div.firstcontact
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0;
+	width: 250px;
+	height: 312px;
+	overflow: auto;
+	background-color: white;
+}
+div.contact1 > h3
+{
+	margin: 0;
+}
+div.contact3 > input
+{
+	width: 217px;
+	height: 14px;
+	padding: 6px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+div.contact4 > input
+{
+	padding: 6px;
+	border: 1px solid;
+	border-radius: 5px;
+	width: 217.200px;
+	height: 56px;	
+}
+/*div.contact5 > input
+{
+	border: 1px solid;
+	border-radius: 3px;
+	background:#00D8DA;
+	width: 240px;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 3px;
+	background:#00D8DA;
+	align-content: center;
+	padding-bottom: 6px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 6px;
+}*/
+div.submitcontact
+{
+	position: 312px;
+	border: 1px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* Menu đầu */
+.menukill
+{
+	position: relative;
+	top: 0;
+	border-bottom: 2px solid #000000;
+}
+#menu ul {
+	background-color:whitesmoke;
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#menu li {
+	color: #f1f1f1;
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: -5px;
+	position: relative;
+	border-bottom: 1px solid #FFFFFF;
+}
+#menu a {
+	text-decoration: none;
+	color:black;
+	display: block;
+}
+#menu a:hover {
+	background: #F1F1F1;
+	color: #333;
+}
+.sub-menu li {
+	display: none;
+}
+.sub-menu {
+	display: none;
+	position: absolute;
+	padding: 0;	
+	float: left;	
+	
+}
+#menu li:hover .sub-menu {
+	display: block;
+}
+.sub-menu li {
+	margin-left: 0 !important;
+}
+#menu a
+{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+/* Logo + search */
+.topheader
+{
+	width: 100%;
+	display: block;
+	background-image: url(../cover/lephungkhanh.jpg);
+}
+.head-left > img
+{
+	width: 250px;
+}
+.head-right > button
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	color: black;
+}
+.head-right > button > img
+{
+	width: 10px;
+}
+.head-right > input
+{
+	width: 300px;
+	height: 30px;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 0px solid #000000;
+	border-left: 0px solid #000000;
+	border-radius: 5px;
+}
+div.head-right >input:hover
+{
+	width: 300px;
+	height: 35px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	
+}
+div.head-right > button:hover
+{
+	width: 35px;
+	height: 35px
+}
+.head-left
+{
+	width: 50%;
+	margin: 0;
+	display: inline-block;
+}
+.head-right
+{
+	overflow: hidden;
+	display: block;
+	width: 50%;
+	margin-top: 100px;
+	padding-left: 100px;
+}
+.head-right1
+{
+	text-transform: uppercase;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	border-radius: 5px;
+	background: #eeeeee;
+	width: 180px;
+	
+}
+span
+{
+	color: red;
+	text-transform: uppercase;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+/* KIng zone dragonX */
+.centeradd
+{
+	margin-top: 20px;
+	width: 100%;
+	margin-right: 0;
+	
+}
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.coll1
+{
+	width: 78%;
+	overflow: hidden;
+}
+.coll2
+{
+	width: 30%;
+	overflow: hidden;
+	height: 450px;
+	
+}
+.coll2-amd
+{
+	width: 20%;
+	overflow: hidden;
+	height: 450px;
+}
+.coll2-1
+{
+	display: block;
+	border-bottom: 1px solid #000000;
+	text-align: left;
+	text-transform: uppercase;
+}
+.coll2-2
+{
+	padding-left: 5px;
+	border-bottom: 1px solid #B8B5B5;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+.coll2-img
+{
+	width: 72px;
+	clear: left;
+}
+.coll2-2 > a
+{
+	text-decoration: none;
+	color: black;
+}
+.coll2-2 > a:active
+{
+	color: red;
+	text-decoration: none;
+}
+.coll2-2 > a:hover
+{
+	text-decoration: none;
+	color: red;
+}
+.latop
+{
+	display: inline-block;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 232px !important;
+	height: 347px;
+}
+
+.image-latop > a > img
+{
+	width: 190px;
+	display: block;
+    padding-left: 20px;
+    padding-bottom: 40;
+    padding-top: 40px;
+	margin: 0;
+	border: 1px solid #A5A0A0;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.image-latop > a > img:hover
+{
+	border: 1px black solid;
+}
+.infomation
+{
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.infomation > div
+{
+	color: red;
+}
+.infomation > div > a
+{
+	text-decoration: none;
+	color: black;
+}
+.infomation > div > a:hover
+{
+	color: red;
+}
+.product1 > div
+{
+	display: block;
+	width: 100%;
+	border-bottom: 1px black solid;
+	float: left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-transform: uppercase;
+	background-color: whitesmoke;
+}
+div.new
+{
+	display: inline-block;
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+	border-radius: 5px;
+	position: absolute;
+	padding: 5px;
+	margin: 5px 0px 0px 21px;
+}
+/* mới về*/
+div.moive
+{
+	display: inline-block;
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	border-radius: 5px;
+	position: absolute;
+	padding: 5px;
+	margin: 5px 0px 0px 21px;
+}
+/* còn hàng*/
+div.haveit
+{
+	display: inline-block;
+	color: #0076FD;
+	border: 1px solid #0076FD;
+	border-radius: 5px;
+	position: absolute;
+	padding: 5px;
+	margin: 5px 0px 0px;
+	margin-left: 21px;
+
+}
+/* bán chạy*/
+div.banchay
+{
+	display: inline-block;
+	color: aqua;
+	border: 1px solid aqua;
+	border-radius: 5px;
+	position: absolute;
+	padding: 5px;
+	margin: 5px 0px 0px;
+	margin-left: 21px;
+
+}
+/* Hết hàng */
+div.endhang
+{
+	display: inline-block;
+	color: aqua;
+	border: 1px solid aqua;
+	border-radius: 5px;
+	position: absolute;
+	padding: 5px;
+	margin: 5px 0px 0px;
+	margin-left: 21px;
+
+}
+.product-highlight
+{
+	display: block;
+	height: 400px;
+}
+.product2 > div
+{
+	display: block;
+	border-bottom: 1px black solid;
+	float: left;
+	width: 100%;
+	background-color: whitesmoke;
+}
+.bootstrapt
+{
+	margin: 0;
+	padding: 0;	
+}
+.product2 > div > ul
+{
+	border: 0;
+	list-style-type: none;
+}
+.product2 > div > ul > li > a
+{
+	color: black;
+	display: inline-block;
+}
+.product2 > div > ul > li > a:hover
+{
+	text-decoration: none;
+}
+.product2 > div > ul > li:hover
+{
+	background-color: white;
+}
+.product2 > div > ul > li
+{
+	display: inline-block;
+	padding-right: 30px;
+	padding: 7px;
+	border-right: 1px solid white;
+	
+}
+/* End of game*/
+
+.product3 > div.rowmid
+{
+	display: block;
+	border-bottom: 1px black solid;
+	float: left;
+	width: 100%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: black;
+	color: white;
+	height: 221.8px;
+}
+.row1
+{
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	margin-right: 20px;
+	padding-left: 120px;
+}
+.row1 > div
+{
+	padding-bottom: 5px;
+	padding-top: 12px;
+}
+.row1 > a > img
+{
+	width: 40px;
+}
+.row1 > ul > li > a
+{
+	text-decoration: none;
+	color: white;
+	text-transform: none;
+	
+}
+.row1 > ul > li > a:hover
+{
+	text-decoration: none;
+	color: red;	
+}
+.row1 > ul > li
+{
+	padding: 5px 0px 5px 0px;
+}
+.row1 > ul
+{
+	list-style-type: none;
+}
+.row2
+{
+	float: right;
+	margin-right: 10px;
+	padding-top: 15px;
+	font-size: 16px;
+	
+}
+.row2-1
+{
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+.row2-2 > li
+{
+	font-size: 14px;
+	color: #656565
+}
+.row2 > div
+{
+}
+.nonee
+{
+	text-transform: none;
+}
+.container
+{
+	display: block;
+	width: 100%;
+}
+.contaner > div > a
+{
+	text-decoration: none;
+	color: black;
+}
+.contaner >div
+{
+	color: #565555;
+}
+.contaner >img
+{
+	width: 1180px;
+	margin: 10px 0 10px 0;
+}
+.banner-dell
+{
+	display: inline-block;
+	position: absolute;
+	color: black;
+	z-index: 100;
+}
+.banner-dell > div
+{
+	width: 500px;
+	padding-left: 20px;
+}
+.banner-dell >h1
+{
+	padding-left: 20px;
+}
+.rowlaptop-left
+{
+	display: block;
+	float: left;
+	width: 68%;
+}
+.product-infor
+{
+	display: block;
+	width: 351px;
+	margin: 20px;
+}
+.rowlaptop-left > div >h1
+{
+	font-size: 20px;
+}
+.rowlaptop-left > div >h1:hover
+{
+	color: red;
+}
+.rowlaptop-left > img
+{
+	width: 400px;
+	display: inline-block;
+}
+.price
+{
+	border-bottom: 1px dotted black;
+	padding: 20px;
+}
+.newmoney
+{
+	color: red;
+	font-size: 25px;
+	display: inline-block;
+}
+.oldmoney
+{
+	color: #565656;
+	margin-bottom: 5px;
+	text-decoration: line-through;
+	
+}
+.ready
+{
+	display:inline-block;
+	background-color: green;
+	padding:5px;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+	margin-left: 200px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.inforlaptop >ul
+{
+	text-decoration: none;
+	font: 20px;
+	list-style-type: none;
+	padding: 20px;
+}
+.inforlaptop >ul >li
+{
+	padding-bottom: 2px;
+}
+.order
+{
+	display: inline-block;
+	background-color: red;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	width: 150px;
+	text-decoration: none;
+	margin: 0px;
+}
+.order > span
+{
+	color: white;
+	font-size: 11px;
+	text-transform: none;
+	display: block;
+	font-weight: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+.amss
+{
+	text-decoration: none;
+}
+.contactfororder
+{
+	display: block;
+	background-color: green;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	width: 166.666px;
+	text-decoration: none;
+}
+.contactfororder > span
+{
+	color: white;
+	font-size: 11px;
+	text-transform: none;
+	display: block;
+	font-weight: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+.info-laptop
+{
+	display: block;
+	height: auto;
+	margin: 10px;
+	padding: 20px;
+}
+/* Khanh Thang*/
+.thongsokithuat
+{
+	display:inline-block;
+	width: 100%;
+	height: 347px;
+}
+.thongsokithuat > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.thongsokithuat > ul > li
+{
+	border-bottom: 1px solid whitesmoke;
+	padding-bottom: 7px;
+	margin-bottom: 7px;
+}
+.colcpu
+{
+	display: block;
+}
+.cpu
+{
+	display: inline-block;
+	width: 270px;
+	height: 16.8px;	
+}
+.name
+{
+	display: inline-block;
+	width: 560px;
+	height: 16.8px;
+}
+
+.nones
+{
+	display: none;
+}
+.firstclick
+{
+	background-color: whitesmoke;
+	margin: 7px 0 7px 0px;	
+}
+.newspaper
+{
+	display: block;
+	width: 100%;
+	height: 70px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid whitesmoke;
+}
+.newspaper > img
+{
+	width: 300px;
+	display: inline-block;
+}
+.newspaper1 >a
+{
+	font-size: 18px;
+	text-decoration: none;
+	
+}
+.newspaper1 >a:hover
+{
+	text-decoration: none;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
